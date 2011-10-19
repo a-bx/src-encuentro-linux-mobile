@@ -1,0 +1,23 @@
+sdk: "/Users/abrahambarrera/.rvm/gems/ruby-1.9.2-p290/gems/rhodes-3.1.1"
+sdkversion: 3.1.0
+name: test_rhodes
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+wmsdk: "Windows Mobile 6 Professional SDK (ARMV4I)"
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator4.3
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.testrhodes
+  BundleURLScheme: testrhodes
+wp:
+  productid: 'e91601d0-dc17-012e-f00a-48bcc8a4fd50'
+symbian:
+    uid: '0xec667f82'
+
+extensions: ["json", "another-extension"]
